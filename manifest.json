@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Pluto - SOCKS5 Proxy Manager",
+    "version": "1.0",
+    "description": "A Simple SOCKS5 Proxy Manager Chrome Extension",
+    "permissions": [
+      "proxy",
+      "storage",
+      "declarativeNetRequest",
+      "declarativeNetRequestWithHostAccess"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "icons/inactive_48.png"
+      }
+    },
+    "icons": {
+      "48": "icons/inactive_48.png"
+    },
+    "host_permissions": ["<all_urls>"]
+  }
+  
