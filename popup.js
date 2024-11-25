@@ -34,5 +34,3 @@ document.getElementById("clearProxyBtn").addEventListener("click", () => {
 
 
 document.addEventListener("DOMContentLoaded", fetchApiData);
-
-
